@@ -9,4 +9,5 @@ const clubRouter = Router();
 clubRouter.post("", AuthMiddlewares, createClubController);
 clubRouter.get("", clubsListController)
 
+
 export default clubRouter;
