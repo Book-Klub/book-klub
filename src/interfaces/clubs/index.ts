@@ -11,3 +11,8 @@ export interface IClub{
     isActive: boolean,
     createdAt: string,
 }
+
+export interface IClubBook{
+    clubId: string,
+    bookId: string
+}
